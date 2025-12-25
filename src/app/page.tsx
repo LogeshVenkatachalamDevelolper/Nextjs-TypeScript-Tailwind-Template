@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
-    <div className="flex h-screen items-start justify-center pt-28">
+    <div className="flex h-screen items-start justify-center pt-28 text-default">
       Hi! Thanks for using the Template -{' '}
       <Link
         href={'https://github.com/sponsors/Anmol-Baranwal'}
