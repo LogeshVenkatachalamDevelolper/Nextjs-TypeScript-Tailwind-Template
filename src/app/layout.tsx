@@ -19,8 +19,8 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={cn(
-          'flex min-h-screen flex-col overflow-x-hidden font-sans antialiased',
-          fontSans.variable
+          'flex min-h-screen flex-col overflow-x-hidden font-sans antialiased'
+          // fontSans.variable
         )}
       >
         {children}

@@ -1,16 +1,12 @@
-import Link from 'next/link'
-
 export default function Home() {
   return (
-    <div className="flex h-screen items-start justify-center pt-28 text-default">
-      Hi! Thanks for using the Template -{' '}
-      <Link
-        href={'https://github.com/sponsors/Anmol-Baranwal'}
-        className="w-40 font-bold hover:underline"
-        target="_blank"
-      >
-        @Anmol
-      </Link>
+    <div className="bg-default flex items-center justify-center">
+      <div className="bg-surface rounded-md p-(--space-padding-sm)">
+        <p className="text-strong">Title</p>
+        <button className="bg-accent text-inverse rounded-full p-(--space-padding-sm)">
+          Buttom
+        </button>
+      </div>
     </div>
   )
 }
